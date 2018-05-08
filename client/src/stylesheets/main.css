@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700");
+@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+.signup-btn, .login-btn, .enter-btn, .join-btn {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border-radius: 30px;
+  font-size: 25px;
+  position: relative;
+  clear: both;
+  display: inline-block;
+  margin: 15px;
+  padding: 8px;
+  width: 220px; }
+
+.color-btn {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin: 10px; }
+
+input[type="text"] {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border-radius: 30px;
+  border: none;
+  background-color: lightgrey;
+  color: grey;
+  padding: 8px;
+  font-size: 25px; }
+
+body {
+  margin: auto;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background: #31263E; }
+
+#not-a-session {
+  margin-top: 25%;
+  font-size: 150%; }
+
+.signup-btn {
+  background: #FF8A5B; }
+
+.login-btn, .enter-btn {
+  background: #44BBA4; }
+
+.signup-btn:hover, .login-btn:hover, .enter-btn:hover {
+  background-color: grey; }
+
+input[type="text"] {
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  width: 220px; }
+
+input[type="text"]:focus {
+  outline: none; }
+
+#key-icon {
+  transform: rotate(45deg);
+  font-size: 40px; }
+
+#roomkey {
+  margin: auto;
+  text-align: center;
+  border-radius: 30px;
+  background-color: #FF8A5B;
+  width: 300px;
+  margin-top: 50px;
+  font-size: 14px;
+  padding: 10px; }
+
+#random-word {
+  margin-top: -10px;
+  font-size: 40px; }
+
+p {
+  margin: 0px; }
+
+.signup-btn, .login-btn, .enter-btn, .join-btn {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border-radius: 30px;
+  font-size: 25px;
+  float: center;
+  position: relative;
+  width: 200px;
+  margin: 15px;
+  padding: 8px; }
+
+.color-btn {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin: 10px; }
+
+.giphy-component {
+  padding: 15px; }
+  .giphy-component h4, .giphy-component h6 {
+    font-family: "Montserrat", sans-serif;
+    color: white; }
+  .giphy-component .search-holder {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto; }
+    .giphy-component .search-holder input[type="text"] {
+      width: calc(100% - 65px); }
+    .giphy-component .search-holder .search-button {
+      width: 50px;
+      height: 50px;
+      background: #FF8A5B;
+      display: inline-block;
+      margin: 0px 0px 0px 15px;
+      position: relative;
+      top: 18px;
+      border-radius: 50%; }
+      .giphy-component .search-holder .search-button i {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 20px; }
+    .giphy-component .search-holder img {
+      width: 100%;
+      margin-top: 15px;
+      border-radius: 15px; }
+    .giphy-component .search-holder .button-holder {
+      width: 100%;
+      text-align: right;
+      padding-top: 20px; }
+      .giphy-component .search-holder .button-holder .timer-placeholder {
+        display: inline-block;
+        width: calc(100% - 115px);
+        text-align: left;
+        font-size: 30px;
+        position: relative;
+        bottom: 12px; }
+        .giphy-component .search-holder .button-holder .timer-placeholder i {
+          padding-right: 10px; }
+      .giphy-component .search-holder .button-holder .button {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: inline-block; }
+      .giphy-component .search-holder .button-holder .research {
+        background: lightgray;
+        position: relative; }
+        .giphy-component .search-holder .button-holder .research i {
+          color: darkgrey;
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          font-size: 20px; }
+      .giphy-component .search-holder .button-holder .confirm {
+        background: #44BBA4;
+        position: relative;
+        margin-left: 10px; }
+        .giphy-component .search-holder .button-holder .confirm i {
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          font-size: 20px; }
+
+.gif-component {
+  background-size: cover;
+  max-height: 400px;
+  width: 100%;
+  text-align: center; }
+  .gif-component .gif-preview {
+    height: 300px;
+    object-fit: fill;
+    max-width: 442px; }
+
+.promptSelect-component {
+  padding: 15px; }
+  .promptSelect-component h4, .promptSelect-component h5 {
+    font-family: "Montserrat", sans-serif;
+    color: white; }
+  .promptSelect-component h4 {
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  .promptSelect-component .prompt-card {
+    text-align: left;
+    width: 95%;
+    display: block;
+    margin: 0 auto;
+    background: #FF6161;
+    padding: 15px 20px 10px 20px;
+    border-radius: 15px; }
+    .promptSelect-component .prompt-card i {
+      padding-right: 15px; }
+
+.signup-btn, .login-btn, .enter-btn, .join-btn {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border-radius: 30px;
+  font-size: 25px;
+  position: relative;
+  clear: both;
+  display: inline-block;
+  margin: 15px;
+  padding: 8px;
+  width: 220px; }
+
+.color-btn {
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin: 10px; }
+
+.enter-profile {
+  font-size: 40px;
+  margin-top: 2%; }
+
+.enter-color {
+  font-size: 20px;
+  margin: 50px 0px 15px 0px; }
+
+.color-btn:hover {
+  box-shadow: 0 0 10px grey; }
+
+.yellow-prof {
+  background-color: #FFC655; }
+
+.blue-prof {
+  background-color: #5FACFF; }
+
+.red-prof {
+  background-color: #FF6161; }
+
+.pink-prof {
+  background-color: #D45FFF; }
+
+.green-prof {
+  background-color: #44BBA4; }
+
+.orange-prof {
+  background-color: #FF8A5B; }
+
+.purple-prof {
+  background-color: #9964FF; }
+
+.charcoal-prof {
+  background-color: #444444; }
+
+.join-btn {
+  width: 180px;
+  background-color: hotpink; }
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  transition: .25s;
+  background: #C0C0C0;
+  height: 40px;
+  min-height: 0;
+  overflow: scroll; }
+  .bottom-nav .content-holder {
+    width: 100%;
+    position: relative; }
+    .bottom-nav .content-holder .user-initial {
+      position: absolute;
+      left: 15px;
+      top: 4px;
+      padding: 4px 9px 4px 9px;
+      background: #FFC655;
+      border-radius: 50%; }
+    .bottom-nav .content-holder .userScore {
+      position: absolute;
+      left: 60px;
+      top: 11px; }
+    .bottom-nav .content-holder .home-button {
+      position: absolute;
+      right: 15px;
+      top: 7px;
+      color: grey;
+      font-size: 25px;
+      z-index: 1000; }
+
+.expanded {
+  min-height: 25vh;
+  height: 25vh; }
+
+.not-expanded {
+  min-height: 0; }
+
+.loading-screen-holder {
+  min-height: 25px;
+  width: 100%;
+  padding: 15px;
+  margin-top: 30px; }
+
+.judge {
+  width: 150px;
+  padding: 10px;
+  border-radius: 40px;
+  position: absolute;
+  top: 10px;
+  left: 15px; }
+
+.judge-start {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  width: 75px;
+  padding: 10px;
+  border-radius: 40px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: #44BBA4; }
+
+.loading-gif {
+  width: 65%;
+  padding: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: -20px; }
+
+#current-players, #no-players {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 200%;
+  margin-top: 20px; }
+
+#username {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 35px; }
+
+.current-players-div {
+  width: 100%;
+  padding: 15px;
+  text-align: center; }
+
+.player-bubble {
+  display: inline-block;
+  z-index: 100; }
+
+.trex-pic {
+  max-width: 200px;
+  margin: 40px 0px 5px 0px; }
+
+.playerlist-holder {
+  width: 100%;
+  text-align: left;
+  margin-top: 5px; }
+  .playerlist-holder td {
+    padding: 5px 15px; }

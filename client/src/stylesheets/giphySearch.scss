@@ -1,0 +1,130 @@
+//Colors ===============================================================
+$background: #31263E;
+$green: #44BBA4;
+$orange: #FF8A5B;
+$grey: #C0C0C0;
+$yellow: #FFC655;
+$blue: #5FACFF;
+$red: #FF6161;
+$pink: #D45FFF;
+$purple: #9964FF;
+$charcoal: #444444;
+
+@mixin font{
+  font-family: "Montserrat", sans-serif;
+  color:white;
+}
+
+//Placeholders ===================================================
+%buttons{
+  @include font;
+  border-radius: 30px;
+  font-size:25px;
+  float:center;
+  position: relative;
+  width:200px;
+  margin: 15px;
+  padding: 8px;
+}
+
+%round-buttons{
+  border-radius: 50px;
+  height: 100px;
+  width:100px;
+  margin:10px;
+}
+
+.giphy-component {
+  padding: 15px;
+  
+  h4, h6 {
+    @include font;
+  }
+  
+  .search-holder{
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  
+    input[type="text"] {
+      width: calc(100% - 65px);
+    }
+  
+    .search-button {
+      width: 50px;
+      height: 50px;
+      background: $orange;
+      display: inline-block;
+      margin: 0px 0px 0px 15px;
+      position: relative;
+      top: 18px;
+      border-radius: 50%;
+  
+      i {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 20px;
+      }
+    }
+  
+    img {
+      width: 100%;
+      margin-top: 15px;
+      border-radius: 15px;
+    }
+  
+    .button-holder {
+  
+      width: 100%;
+      text-align: right;
+      padding-top: 20px;
+
+      .timer-placeholder{
+        display: inline-block;
+        width: calc(100% - 115px);
+        text-align: left;
+        font-size: 30px;
+        position: relative;
+        bottom: 12px;
+
+        i {
+          padding-right: 10px;
+        }
+      }
+  
+      .button {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        display: inline-block;
+      }
+    
+      .research {
+        background: lightgray;
+        position: relative;
+    
+        i {
+          color: darkgrey;
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          font-size: 20px;
+        }
+      }
+    
+      .confirm {
+        background: $green;
+        position: relative;
+        margin-left: 10px;
+    
+        i {
+          position: absolute;
+          top: 15px;
+          right: 15px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
